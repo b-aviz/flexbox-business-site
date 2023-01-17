@@ -78,8 +78,19 @@ nav a {
 
 @media only screen and (max-width: 600px) {
     .content {
-      width: 90%;
+      width: auto;
+      padding: 0 2rem;
     }
+    .content h1 {
+        font-size: 1.5rem;
+    }
+
+    .content img {
+        width: 60%;
+    }
+
+    
+
 }
 
 .services {
@@ -265,12 +276,10 @@ ul img {
 
 @media only screen and (max-width: 600px) {
    
-    .ul img {
-        width: 3rem;
-    }
+    
 
     .contactcontent li {
-        padding: 1rem;
+        padding: 1rem .5rem;
     }
 
 }
