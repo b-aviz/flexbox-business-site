@@ -1,0 +1,287 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background-color: #141759;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 16px;
+    
+   
+}
+
+nav {
+    
+    height: 135px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center; 
+  
+}
+
+nav li {
+    display: inline-block;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    padding: 1rem;
+    
+    
+}
+
+nav a {
+    color: #FDF8FF;
+    text-decoration: none;
+   
+   
+}
+
+@media only screen and (max-width: 600px) {
+    nav {
+      display: none;
+    }
+}
+
+
+
+.main-content {
+
+    width: 100%;
+    height: 43.5rem;
+    background-image: url('https://www.brunodeaviz.com/img/bg.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-content: center;
+    align-items: center;
+    display: flex ;
+    justify-content: center;
+
+}
+
+
+
+.content {
+   
+    text-align: center; 
+    color: #FDF8FF;
+    width: 60%;
+}
+
+.content img {
+    
+    padding: 3rem;
+
+}
+
+@media only screen and (max-width: 600px) {
+    .content {
+      width: 90%;
+    }
+}
+
+.services {
+    display: flex; 
+    justify-content: space-between;
+    padding: 2rem 5%;
+    
+    
+}
+
+.title-service h2 {
+    text-align: center;
+    color: #FDF8FF;
+    text-transform: uppercase;
+    padding-top: 3rem;
+
+}
+
+.card {
+    
+    padding: 1rem;
+    margin: 1rem;
+    text-align: center;
+}
+
+.card img {
+    width: 80%;
+    height: 80%;
+    margin: 0 auto;
+}
+
+.card h3 {
+    color: #FDF8FF;
+    text-transform: uppercase;
+}
+
+@media only screen and (max-width: 600px) {
+    .services {
+        flex-flow: column;
+        padding: 0;
+    }
+
+    .services img {
+        margin: 0;
+        width: 40%;
+      }
+}
+
+
+.portfolio {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: repeat(2, 1fr);
+   
+}
+
+
+
+
+/*
+.port-img {
+    display: flex;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    
+}
+*/
+.port-img img {
+    width: 100%;
+    height: auto;
+    display: flex;
+    
+   
+}
+
+@media only screen and (max-width: 600px) {
+   .portfolio {
+    display: block;
+    width: 100%;
+   }
+}
+
+
+.quotes-section {
+    width: auto;
+    padding: 5rem;
+    background-color: #FDF8FF;
+    color: #141759;
+    text-align: center;
+    
+
+
+} 
+
+.quotes {
+   
+   
+  
+   
+    width: auto;
+    
+    
+}
+
+.quote {
+    font-size: 2rem;
+    font-style: italic;
+   
+
+}
+
+.quote-author {
+    font-size: 1rem;
+   
+
+}
+
+@media only screen and (max-width: 600px) {
+   
+.quotes-section {
+    width: auto;
+}
+
+.quotes {
+    padding: 0rem;
+    text-align: center;
+}
+
+
+    .quote {
+        font-size: 2rem;
+        font-style: italic;
+       
+    
+    }
+    
+    .quote-author {
+        font-size: 1rem;
+       
+    
+    }
+
+ }
+
+
+.contact {
+    width: 100%;
+    display: flex;
+    color: #FDF8FF;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center; 
+}
+
+.contactcontent ul {
+    
+    width: auto;
+}
+
+
+
+.contactcontent li {
+    
+    display: inline-block;
+    padding: 2rem;
+    
+
+}
+
+.contactcontent {
+    padding: 2rem;
+    font-size: 1.5rem;
+}
+
+ul img {
+    
+   width: 2rem;
+    
+
+}
+
+@media only screen and (max-width: 600px) {
+   
+    .ul img {
+        width: 3rem;
+    }
+
+    .contactcontent li {
+        padding: 1rem;
+    }
+
+}
+
+
+footer {
+    background: #1A37D9;
+    width: auto;
+    text-align: center;
+    padding: 1rem;
+    color: #FDF8FF;
+
+}
+
